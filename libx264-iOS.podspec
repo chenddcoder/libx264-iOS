@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name     = 'libx264-iOS'
-  s.version  = '1.2'
+  s.version  = '1.3'
   s.license  = 'MIT'
   s.summary  = 'libx264 build for iOS'
   s.homepage = 'https://github.com/chenddcoder/libx264-iOS'
   s.authors  = { 'chenddcoder' => 'chenddcoder@foxmail.com' }
-  s.source   = { :git => 'https://github.com/chenddcoder/libx264-iOS.git', :tag => "1.2", :submodules => true }
+  s.source   = { :git => 'https://github.com/chenddcoder/libx264-iOS.git', :tag => "1.3", :submodules => true }
   s.requires_arc = false
   
   s.ios.deployment_target = '7.0'
